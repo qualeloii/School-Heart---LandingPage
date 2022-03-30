@@ -5,6 +5,7 @@
 :root {
     --orange: #FF6551;
     --ligh-blue: #B6D7FF;
+    --dark-blue: #26335D;
 }
 
 /* Body */
@@ -366,4 +367,15 @@ color: #737373;
     color: #FF6551;
 
     margin-top: 10px;
+}
+
+/*Section 3*/
+.section4{
+    background-color: var(--dark-blue);
+}
+.courseCard{
+    max-width: 323px;
+    max-height: 888px;
+
+    background-color: white;
 }
